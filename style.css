@@ -89,3 +89,10 @@ h1 {
   cursor: pointer;
   padding: 5px;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .keyboard-row-container:not(.notAlphabetic) button {
+    width: 8.5%;
+    padding: 10px;
+  }
+}
